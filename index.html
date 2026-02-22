@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sarah Dunning | Private Equity Analyst</title>
+  <title>Sarah Dunning | Private Equity</title>
   <style>
     body {
       margin: 0;
@@ -14,39 +14,56 @@
     }
     header, section {
       padding: 4rem 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
-    header {
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      margin-top: 2rem;
-    }
+    header { text-align: center; padding-top: 3.5rem; }
+    h1 { font-size: 2.5rem; margin-bottom: 0.35rem; }
+    h2 { margin-top: 0; }
     nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
       text-align: center;
       background: #fff;
       padding: 1rem;
       border-bottom: 1px solid #ddd;
     }
     nav a {
-      margin: 0 1rem;
+      margin: 0 0.9rem;
       text-decoration: none;
       color: #555;
+      white-space: nowrap;
     }
-    nav a:hover {
-      color: #000;
+    nav a:hover { color: #000; }
+    .muted { color: #666; }
+    .pill {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      margin: 0.25rem 0.25rem 0 0;
+      background: #fff;
     }
+    .card {
+      background: #fff;
+      border: 1px solid #e6e6e6;
+      border-radius: 14px;
+      padding: 1.25rem 1.25rem;
+      margin: 1rem 0;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+    }
+    .card h3 { margin: 0 0 0.35rem 0; font-size: 1.05rem; }
+    .card p { margin: 0.35rem 0; }
+    ul { margin: 0.5rem 0 0 1.1rem; }
     .contact a {
-      display: block;
+      display: inline-block;
       color: #0056b3;
       text-decoration: none;
-      margin-bottom: 0.5rem;
+      margin: 0.25rem 0.75rem 0.25rem 0;
     }
+    .contact a:hover { text-decoration: underline; }
     footer {
       text-align: center;
       padding: 2rem;
@@ -58,50 +75,137 @@
 <body>
   <nav>
     <a href="#about">About</a>
+    <a href="#pe">Private Equity</a>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
+    <a href="#writing">Writing</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <header>
     <h1>Sarah Dunning</h1>
-    <p>Private Equity Analyst</p>
+    <p class="muted">Private Equity • Secondaries (GP-led) • Co-investments</p>
+    <div>
+      <span class="pill">Geneva, Switzerland</span>
+      <span class="pill">CFA Level III Candidate (Aug 2026)</span>
+      <span class="pill">Swiss & French</span>
+    </div>
   </header>
 
   <section id="about">
     <h2>About</h2>
-    <p>Detail-oriented Private Equity Analyst with 5+ years of experience in financial modelling, market research, and investment analysis. Currently seeking to contribute analytical skills and industry knowledge to a dynamic investment firm.</p>
+    <p>
+      Investment professional with 7+ years of experience across private equity and M&A, with hands-on transaction execution,
+      valuation, financial modelling, and multi-disciplinary due diligence. Actively seeking Private Equity roles where I can
+      contribute analytical rigor and execution strength within a high-performing team.
+    </p>
+  </section>
+
+  <section id="pe">
+    <h2>Private Equity focus</h2>
+    <div class="card">
+      <h3>Lombard Odier Asset Management — Private Equity & Venture Capital (2019–2023)</h3>
+      <p class="muted">Investment Analyst • Geneva, Switzerland</p>
+      <ul>
+        <li>Executed 20+ GP-led secondary and co-investment transactions; drafted investment memorandums and performed valuation, financial modelling, and scenario analysis.</li>
+        <li>Supported portfolio management via performance monitoring, quarterly valuation reviews, and LP reporting.</li>
+        <li>Coordinated with GPs, external advisors, and internal stakeholders across deal execution and operational processes.</li>
+        <li>Supported fundraising by preparing investor materials and tailored client presentations, including cash-flow planning.</li>
+      </ul>
+    </div>
+    <p class="muted">
+      Target roles: Private Equity (buyout / growth), secondaries, co-investments, and fund/portfolio analytics.
+    </p>
   </section>
 
   <section id="experience">
-    <h2>Experience Highlights</h2>
-    <p><strong>Forestay Capital</strong> – Visiting Analyst (2024)<br />Early growth venture capital, due diligence, sourcing, and portfolio review.</p>
-    <p><strong>MIDI Management</strong> – Visiting Analyst (2024)<br />Growth capital focus, due diligence, LP reporting, and market expansion support.</p>
-    <p><strong>Lombard Odier</strong> – Investment Analyst (2019–2023)<br />Co-investments & secondaries, deal execution, portfolio monitoring, investor materials.</p>
-    <p><strong>PwC</strong> – Deals Analytics Consultant (2018–2019)<br />KPI modeling, data visualization, and company valuation analysis.</p>
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Swissroc Asset Management — Value-add / Opportunistic Real Estate (Aug 2025–Today)</h3>
+      <p class="muted">Analyst • Geneva, Switzerland</p>
+      <ul>
+        <li>Led market intelligence, asset-level analysis, and financial modelling (DCF, sensitivities) across a portfolio of 10 assets to support monitoring and value-creation strategies.</li>
+        <li>Oversaw day-to-day asset management: leasing oversight, technical/admin follow-up, budget tracking, and KPI monitoring.</li>
+        <li>Produced investor-ready reporting and documentation; coordinated cross-functional stakeholders to support performance optimization.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Forestay Capital — Venture Capital (Mar 2024–Jun 2024)</h3>
+      <p class="muted">Visiting Analyst • Geneva, Switzerland</p>
+      <ul>
+        <li>Performed commercial, financial, and operational due diligence on prospective investments.</li>
+        <li>Supported sourcing: first-screened 200+ companies across specific geographies.</li>
+        <li>Contributed to portfolio/asset management tasks (e.g., board advisor recruitment).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>MIDI Management — Growth Capital, Consumer Goods (Jul 2024–Nov 2024)</h3>
+      <p class="muted">Visiting Analyst • Geneva, Switzerland</p>
+      <ul>
+        <li>Performed commercial, financial, and operational DD on a prospective investment in the furniture space.</li>
+        <li>Supported asset management initiatives: new category launch oversight, market expansion analysis, operational reviews.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>PwC — M&A Advisory (2017–2019)</h3>
+      <p class="muted">Deals Analytics & Technology Services Consultant (Zurich) • M&A Intern (Geneva)</p>
+      <ul>
+        <li>Built KPI dashboards and performed quantitative analyses (sales, KPI, attrition) using data visualization tools.</li>
+        <li>Conducted valuation work (trading/transaction multiples, DCF) and supported sell-side information memorandums and target screenings.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Chappuis Halder — Financial Services Management Consulting (2015–2016)</h3>
+      <p class="muted">Analyst • Geneva, Switzerland</p>
+      <ul>
+        <li>Supported strategic projects for Swiss financial institutions (e.g., digital transformation strategy).</li>
+      </ul>
+    </div>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>Financial Modelling (Excel, VBA)</li>
-      <li>Data Visualization (PowerBI, Tableau, Alteryx)</li>
-      <li>Research Tools (Bloomberg, Preqin, Pitchbook)</li>
-      <li>Languages: English (Native), French (Native), German & Spanish (Basic)</li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li><strong>Financial modelling:</strong> Excel, VBA</li>
+        <li><strong>Data visualization:</strong> PowerBI, Alteryx, Tableau</li>
+        <li><strong>Research:</strong> Bloomberg, Preqin, Pitchbook</li>
+        <li><strong>Languages:</strong> English (Native), French (Native), German (Basic), Spanish (Basic)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="writing">
+    <h2>Writing</h2>
+    <div class="card">
+      <h3>sarahdunning — Substack</h3>
+      <p>
+        Writing about consumer spaces (consumer products, CPG/FMCG) and companies at venture-stage growth — including operating
+        companies as well as investing firms, with a particular interest in VC and PE funds.
+      </p>
+      <p>
+        <a href="https://substack.com/@sarahdunning" target="_blank" rel="noopener noreferrer">Read on Substack</a>
+      </p>
+      <p class="muted">Future: showcasing selected analyses and experiments (potentially “vibe coding”).</p>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <div class="contact">
       <a href="mailto:sarahlucia.dunning@gmail.com">sarahlucia.dunning@gmail.com</a>
-      <a href="https://www.linkedin.com/in/s-dunning/" target="_blank">LinkedIn Profile</a>
+      <a href="https://www.linkedin.com/in/s-dunning/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="DUNNING_Sarah_CV.pdf" download>Download CV (PDF)</a>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 Sarah Dunning
+    &copy; 2026 Sarah Dunning
   </footer>
 </body>
 </html>
